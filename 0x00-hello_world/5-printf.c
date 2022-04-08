@@ -5,9 +5,9 @@
 /**
  * main - This function prints the string
  *
- * Description : with proper grammar, but the outcome is a piece of art
+ * Description: with proper grammar, but the outcome is a piece of art
  *
- * Return :  This function returns 0
+ * Return: This function returns 0
  *
  */
 
