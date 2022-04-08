@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - This is the entry point of my program 
+ * main - This is the entry point of my program
  *
  * Description: This prints a message to the standard error output
  *
