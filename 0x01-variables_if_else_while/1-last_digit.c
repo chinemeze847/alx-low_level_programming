@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  *
- * Description: this prints whether lastnum 
+ * Description: this prints whether lastnum
  *
  * Return: Always 0 (Success)
  *
