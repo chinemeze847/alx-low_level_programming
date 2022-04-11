@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  *
- * * main - Entry point
+ * Description: this prints whether lastnum 
  *
- * * Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 
