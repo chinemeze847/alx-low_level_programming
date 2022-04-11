@@ -28,7 +28,7 @@ int main(void)
 					putchar(n + '0');
 					putchar(i + '0');
 
-					if (i + n+ j != 9 + 8 + 7)
+					if (i + n + j != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
@@ -36,9 +36,9 @@ int main(void)
 				}
 				i++;
 			}
-			n++;
-	       	}
-	        j++;
+			n++
+		}
+		j++;
 	}
 	putchar('\n');
 
