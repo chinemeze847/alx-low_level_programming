@@ -8,7 +8,7 @@
  *
  * Description : This program prints whether a number is positive or negative
  *
- * Returns: returns 0
+ * Return: returns 0
  *
  */
 
