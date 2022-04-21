@@ -5,7 +5,7 @@
  * @str: The string that is printed
  */
  
- void puts_half(char *str)
+void puts_half(char *str)
 {
 	int len, n, i;
 
@@ -25,9 +25,9 @@
 	}
 	else if (len % 2)
 	{
-		for (n= (len - 1) / 2; n <  len - 1; n++)
+		for (n = (len - 1) / 2; n <  len - 1; n++)
 		{
-			_putchar(str[n +1]);
+			_putchar(str[n + 1]);
 		}
 	}
 	_putchar('\n');
