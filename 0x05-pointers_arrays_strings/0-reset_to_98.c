@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * reset_to_98 - A function
+ *
+ * Description: This funtion changes the value of a pointer
  *
  * @n: pointer to int
  *
