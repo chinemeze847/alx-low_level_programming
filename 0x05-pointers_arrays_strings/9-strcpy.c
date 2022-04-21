@@ -4,7 +4,7 @@
 /**
  * *_strcpy - copy string to another string
  * @dest: pointer
- * @scr: souce pointer
+ * @src: souce pointer
  *
  * Return: numbers dest
  */
@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i =0; src[i] != '\0'; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
