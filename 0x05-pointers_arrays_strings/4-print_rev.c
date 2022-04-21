@@ -6,7 +6,7 @@
  * @s: string to be reversed
  */
 
-void print_rev(char *S)
+void print_rev(char *s)
 {
 	int count = 0;
 
