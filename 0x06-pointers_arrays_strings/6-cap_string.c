@@ -33,8 +33,8 @@ int isDelimiter(char c)
 }
 
 /**
- * cap_string - Capitalizes all words of a string
- * @s: Input string
+ * cap_string - Capitalizes all words of a string.
+ * @s: Input string.
  *
  * Return: String with capitalized words
  */
