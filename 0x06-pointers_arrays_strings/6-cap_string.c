@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * isLower - Determines whether ASCII is lowercase
- * @c: Character
+ * isLower - Determines whether ASCII is lowercase.
+ * @c: Character.
  *
  * Return: 1 if true, o if false
  */
@@ -14,8 +14,8 @@ int isLower(char c)
 }
 
 /**
- * isDelimiter - Determines whether ASCII is a delimeter
- * @c: Character 
+ * isDelimiter - Determines whether ASCII is a delimeter.
+ * @c: Character.
  *
  * Return: 1 if true, 0 if false
  */
