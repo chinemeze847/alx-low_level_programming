@@ -42,22 +42,24 @@ int isDelimiter(char c)
 char *cap_string(char *s)
 {
 	char *ptr = s;
-        int foundDelimiter = 1;
+        int foundDelimit = 1;
 
 	while (*s)
 	{
 		if (isDelimiter(*s))
-			foundDelimiter = 1;
-		else if (isLower(*s) && foundDelimiter)
+			foundDelimit = 1;
+		else if (isLower(*s) && foundDelimit)
 		{
 			*s -= 32;
-			foundDelimiter = 0;
+			foundDelimit = 0;
 		}
 		else
 		{
-			foundDelimiter = 0;
+			foundDelimit = 0;
 		}
+
 		s++;
 	}
+
 	return (ptr);
 }
