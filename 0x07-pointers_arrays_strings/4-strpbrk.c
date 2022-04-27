@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strpbrk - Bytes 
+ * _strpbrk - Bytes
  *
  * @s: Pointer to char
  * @accept: Pointer to char
@@ -23,6 +23,7 @@ char *_strpbrk(char *s, char *accept)
 				return (s);
 			}
 		}
+
 		s++;
 	}
 
