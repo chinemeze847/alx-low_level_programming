@@ -12,25 +12,26 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int length, j;
+	unsigned int bytes = 0;
+	int index;
 
-	/* Loop through strings */
-	for (length = 0; *(s + length) != '\0'; length++)
+	while (*s)
 	{
-		/* Loop through string accept */
-		for (j = 0; *(accept + j) != '\0'; j++)
+		for (index = 0; accept[index] ; index++)
 		{
-			/*Check where the first character in string j appears */
-			/* in string c and immediately break out of the loop */
-			if (*(s + length) == *(accept + j))
+			if (*s == accept[index])
 			{
+				bytes++;
 				break;
 			}
+			else if (accept[index + 1] == '\0')
+			{
+				return (bytes);
+			}
 		}
-                /* Check if there is no string accept to loop through */
-		if (!*(accept + j))
-			break;
+
+		s++;
 	}
-        /* Return the length where the first character appears */
-	return (length);
+
+	return (bytes);
 }
