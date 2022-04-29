@@ -4,7 +4,7 @@
 /**
  * _pow_recursion - Function that returns the value fo x raised to power y.
  * @x: Parameter fo the number
- * @y: Number to be raised to 
+ * @y: Number to be raised to.
  * Return: Always 0.
  */
 
