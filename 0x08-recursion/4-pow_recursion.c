@@ -3,8 +3,8 @@
 
 /**
  * _pow_recursion - Function that returns the value fo x raised to power y.
- * @:x Parameter fo the number
- * @:y Number to be raised to 
+ * @x: Parameter fo the number
+ * @y: Number to be raised to 
  * Return: Always 0.
  */
 
@@ -19,5 +19,5 @@ int _pow_recursion(int x, int y)
 		return (1);
 	}
 
-	return (x * _pow_recursion(x, y-1));
+	return (x * _pow_recursion(x, y - 1));
 }
