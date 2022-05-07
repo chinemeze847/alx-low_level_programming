@@ -6,7 +6,7 @@
  *
  * @grid: The grid we'll free up
  * @height: The number of rows in the grid
- * 
+ *
  * Return: Nothing
  */
 
