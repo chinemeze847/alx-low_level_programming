@@ -5,7 +5,7 @@
  * _abs - value absolute
  *
  * @n: The int to print
- * Return 0
+ * Return: 0
  */
 
 int _abs(int n)
