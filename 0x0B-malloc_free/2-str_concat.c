@@ -51,7 +51,7 @@ char *str_concat(char *s1, char *s2)
 		alloc_mem[i] = *(s1 + i);
 	}
 
-	for (j = 0; j < s2_length: j++, i++)
+	for (j = 0; j < s2_length; j++, i++)
 	{
 		alloc_mem[i] = *(s2 + j);
 	}
