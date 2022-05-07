@@ -14,6 +14,7 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
+	l = 50;
 
 	for (i = 0; i < l; i++)
 	{
