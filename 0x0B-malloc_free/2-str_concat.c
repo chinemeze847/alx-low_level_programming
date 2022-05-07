@@ -39,7 +39,7 @@ char *str_concat(char *s1, char *s2)
 		s2_length++;
 	}
 
-	alloc_mem = malloc(1 +(s1_length * sizeof(*s1)) + (s2_length * sizeof(*s2)));
+	alloc_mem = malloc(1 + (s1_length * sizeof(*s1)) + (s2_length * sizeof(*s2)));
 
 	if (alloc_mem == NULL)
 	{
