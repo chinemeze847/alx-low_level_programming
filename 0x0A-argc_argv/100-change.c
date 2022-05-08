@@ -9,7 +9,7 @@
  * @argc: number of arguments passed to the function.
  * @argv: argument vector of pointers to strings.
  *
- * Usage: ./change cents where cents is the amount of cent you 
+ * Usage: ./change cents where cents is the amount of cent you
  * need to give back.
  *
  *Return: 0 (Success)
@@ -45,6 +45,5 @@ int main(int argc, char *argv[])
 	}
 
 	printf("%d\n", coins_num);
-
 	return (0);
 }
