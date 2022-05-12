@@ -10,7 +10,7 @@ dog_t *new_dog(char *name, float age, char *owner);
  *
  * @str: The string to be measured.
  *
- * REturn: The length of the string
+ * Return: The length of the string
  */
 
 int _strlen(char *str)
@@ -40,7 +40,7 @@ char *_strcopy(char *dest, char *src)
 	int index ;
 
 	for (index = 0; src[index]; index++)
-		dest[index] = src[index]
+		dest[index] = src[index];
 
 	dest[index] = '\0';
 
@@ -64,12 +64,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
 
-	dogg = mallo(sizeof(dog_t));
+	dogg = malloc(sizeof(dog_t));
 
 	if (dogg == NULL)
 		return (NULL);
 
-	dogg->name = malloc(sizeof(char) * (_strlen(name) +2));
+	dogg->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if (dogg->name == NULL)
 	{
 		free(dogg);
@@ -86,7 +86,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	}
 
 	dogg->name = _strcopy(dogg->name, name);
-	dogg-> = age;
+	dogg->age = age;
 	dogg->owner = _strcopy(dogg->owner, owner);
 
 	return (dogg);
