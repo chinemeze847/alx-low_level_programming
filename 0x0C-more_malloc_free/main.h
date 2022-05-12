@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-oid *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, usigned int n);
 void *_calloc(unsigned in nmemb, unsigned int size);
 int *array_range(int min, int max);
