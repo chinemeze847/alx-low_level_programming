@@ -3,7 +3,7 @@
  * Auth: chinemeze ThankGod
  */
 
-#inlcude "variadic_functions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 
 /**
