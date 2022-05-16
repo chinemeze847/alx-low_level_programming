@@ -1,5 +1,13 @@
+
 #ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
+
+/*
+ * File: variadic_functions.h
+ * Auth: Chinemeze ThankGod
+ * Desc: Header file containing prototypes for all functions
+ *       used in the 0x0F-variadic_functions directory.
+ */
 
 #include <stdarg.h>
 
@@ -12,7 +20,7 @@
 
 typedef struct printer
 {
-	char *sybol;
+	char *symbol;
 	void (*print)(va_list arg);
 }printer_t;
 
